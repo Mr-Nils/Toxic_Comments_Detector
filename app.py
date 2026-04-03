@@ -10,7 +10,7 @@ st.title("💬 Toxic Comment Detector")
 st.write("Type a comment below (like Instagram, Facebook, or YouTube) to check its toxicity levels:")
 
 # Load saved model
-model = tf.keras.models.load_model("toxic_comment_model.h5")
+model = tf.keras.models.load_model("toxic_comment_model.keras")
 vectorizer = tf.keras.models.load_model("vectorizer.keras")
 
 # Toxicity categories
